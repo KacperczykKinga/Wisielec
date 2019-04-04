@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Wisielec</string>
+    <string-array name="air">
+        <item>a</item>
+        <item>i</item>
+        <item>r</item>
+    </string-array>
+    <string-array name="bjs">
+        <item>b</item>
+        <item>j</item>
+        <item>s</item>
+    </string-array>
+    <string-array name="ckt">
+        <item>c</item>
+        <item>k</item>
+        <item>t</item>
+    </string-array>
+    <string-array name="dlu">
+        <item>d</item>
+        <item>l</item>
+        <item>u</item>
+    </string-array>
+    <string-array name="emw">
+        <item>e</item>
+        <item>m</item>
+        <item>w</item>
+    </string-array>
+    <string-array name="fnx">
+        <item>f</item>
+        <item>n</item>
+        <item>x</item>
+    </string-array>
+    <string-array name="goy">
+        <item>g</item>
+        <item>o</item>
+        <item>y</item>
+    </string-array>
+    <string-array name="hpz">
+        <item>h</item>
+        <item>p</item>
+        <item>z</item>
+    </string-array>
+</resources>
+

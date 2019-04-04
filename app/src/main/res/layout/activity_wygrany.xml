@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kartka"
+    tools:context=".Wygrany">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="250dp"
+            android:src="@drawable/wygrane"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Wygrałeś! "
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/hasloW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="A teraz spróbuj sił z kolejnym hasłem"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/los2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Losuj hasło"
+            android:layout_gravity="center"
+            android:onClick="kolejnyFilm"/>
+    </LinearLayout>
+</ScrollView>

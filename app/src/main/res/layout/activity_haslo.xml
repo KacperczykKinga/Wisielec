@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kartka"
+    tools:context=".Haslo">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:id="@+id/kategoria"
+            android:textSize="20dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:id="@+id/view"
+            android:text="a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </View>
+        <ImageView
+            android:id="@+id/wisielec"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/kategoria"
+            android:layout_height="250dp"
+            android:src="@drawable/puste"
+            />
+
+        <TextView
+            android:id="@+id/haslo"
+            android:textSize="20dp"
+            android:layout_below="@id/wisielec"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ListView
+
+            android:layout_marginLeft="150dp"
+            android:id="@+id/first"
+            android:layout_toLeftOf="@id/second"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/haslo"
+            android:layout_alignParentBottom="true"
+            android:listSelector="@android:color/holo_red_dark"
+            android:entries="@array/air"></ListView>
+
+        <ListView
+            android:id="@+id/second"
+            android:layout_toLeftOf="@id/third"
+            android:layout_marginTop="10dp"
+            android:layout_width="41dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/haslo"
+            android:layout_alignParentBottom="true"
+            android:entries="@array/bjs"></ListView>
+        <ListView
+            android:id="@+id/third"
+            android:layout_toLeftOf="@id/fourth"
+            android:layout_marginTop="10dp"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/haslo"
+            android:layout_alignParentBottom="true"
+            android:entries="@array/ckt"></ListView>
+        <ListView
+            android:id="@+id/fourth"
+            android:layout_marginTop="10dp"
+            android:layout_width="40dp"
+
+            android:layout_height="200dp"
+            android:layout_below="@id/haslo"
+            android:layout_toLeftOf="@id/center"
+            android:layout_alignParentBottom="true"
+            android:entries="@array/dlu"></ListView>
+        <ListView
+            android:id="@+id/center"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+
+            android:layout_height="200dp"
+            android:layout_below="@id/haslo"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:entries="@array/dlu"></ListView>
+        <ListView
+            android:id="@+id/fifth"
+            android:layout_marginTop="10dp"
+            android:layout_width="45dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/haslo"
+            android:layout_toRightOf="@id/center"
+
+            android:layout_alignParentBottom="true"
+            android:entries="@array/emw"></ListView>
+        <ListView
+            android:id="@+id/sixth"
+            android:layout_toRightOf="@id/fifth"
+            android:layout_marginTop="10dp"
+            android:layout_width="40dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/haslo"
+            android:layout_alignParentBottom="true"
+            android:entries="@array/fnx"></ListView>
+        <ListView
+            android:id="@+id/seventh"
+            android:layout_toRightOf="@id/sixth"
+            android:layout_marginTop="10dp"
+            android:layout_width="41dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/haslo"
+            android:layout_alignParentBottom="true"
+            android:entries="@array/goy"></ListView>
+        <ListView
+            android:id="@+id/eigth"
+            android:layout_toRightOf="@id/seventh"
+            android:layout_marginTop="10dp"
+            android:layout_width="41dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/haslo"
+            android:layout_alignParentBottom="true"
+            android:entries="@array/hpz"></ListView>
+
+    </RelativeLayout>
+
+</ScrollView>
